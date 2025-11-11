@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -7,7 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
@@ -92,28 +92,28 @@ export default function Home() {
           tag="Services"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Termite Control",
               description: "Comprehensive termite inspection and treatment to protect your home's foundation and structure",
               imageSrc: "https://pixabay.com/get/g2d1c1258ff0960935ee813076e00421759ef0617df6c4ace68129be66c3a2ccfabad1bce952cde0da474cdb1785e8d1df116228374b94a9857dcb09068b219da_1280.jpg",
               imageAlt: "Termite control treatment"
             },
             {
-              id: "2",
+              id: 2,
               title: "Ant Elimination",
               description: "Targeted ant control that eliminates colonies and prevents future infestations",
               imageSrc: "https://pixabay.com/get/g959aaf6d49d31c03df068164eac281b0dc0091c9412243ff67dec6d5d391884cb2b28ef164d1ae369bf43b8f4b7aa707eac6fe280069f145e2051e73f5502f02_1280.jpg",
               imageAlt: "Ant pest control"
             },
             {
-              id: "3",
+              id: 3,
               title: "Rodent Control",
               description: "Safe and humane rodent removal with prevention strategies to keep them out",
               imageSrc: "https://pixabay.com/get/gb543e0e717da8efbfc6a14784de37d7cd9a30d2e336f5941fa8ecc2c8a71aa7eb46a2b41bb0f75fdd8de51d7b79e6ff80917ed5be4abb6f3395697ad3f7c102e_1280.jpg",
               imageAlt: "Rodent control service"
             },
             {
-              id: "4",
+              id: 4,
               title: "Spider Treatment",
               description: "Effective spider control for common and dangerous species around your home",
               imageSrc: "https://pixabay.com/get/gd9cc3be4d3e548a05653e9544a77e5d9e06750c7d259374b0db9b1bfd11578115e05aed65d23e292b24e910c6c68954266083bc0b421fc36a65a43acaefdebe2_1280.jpg",
